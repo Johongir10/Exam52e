@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1220px ;
+
+ }
+ body{
+  background-color: rgb(248, 242, 242);
+ }
+ #box{
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px ;
+   
+    margin: 150px auto;
+    text-align: center;
+
+ }
+ #box h1{
+    color:rgb(141, 152, 130);
+    padding-bottom: 50px;
+    text-align: center;
+    
+ }
+ input{
+    width: 90%;
+    height: 50px;
+    border-radius: 14px;
+     padding: 33px 120px 33px 120px    ;
+     font-size: 20px;
+     outline: none;
+     border: none;
+     margin: 20px 0;
+
+}
+
+#btn{
+    padding: 22px 110px 22px 110px;
+    font-size: 20px ;
+    color: white;
+    background-color: rgb(161, 154, 154);
+    border-radius: 20px; 
+    border: none;
+}
+
+#err{
+    color: black;
+    font-size: 30px ;
+    font-weight: 600;
+    display: none;
+}
+#wel{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    display: none;
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 430px;
+    
+    padding: 22px 110px 22px 110px;
+    font-size: 20px ;
+    background-color: rgb(161, 154, 154);
+    border: none;
+    border-radius: 20px;
+
+}
+#tuo{
+    font-size: 20px ;
+    color: black;
+    margin-left: 440px;
+    padding-top: 13px ;
+}
+#wel:focus{
+    border: 3px solid  ;
+}
+input:focus{
+   border: 3px solid rgb(102, 99, 99);
+
+}
+ul{
+    margin-left: 430px ;
+    padding-top: 10px ;
+}
